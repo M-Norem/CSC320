@@ -1,0 +1,12 @@
+PrintRestaurantInformation:
+  Steps:
+    - DefineVariables:
+        restaurantName: "Sample Restaurant"
+        businessAddress: "123 Main Street"
+        city: "Denver"
+        state: "CO"
+        zipCode: "80202"
+    - PrintInformation:
+        - "Restaurant Name: [restaurantName]"
+        - "Address: [businessAddress]"
+        - "City, State, Zip Code: [city], [state], [zipCode]"
